@@ -1,0 +1,4 @@
+# Top-level Python packages baked into the fixpr-test base image.
+# Every service image builds FROM this base and installs requirements.lock.
+# Recompile with the command in requirements.lock's header.
+pyjwt>=2.0,<3
